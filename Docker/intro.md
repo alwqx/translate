@@ -1,4 +1,29 @@
 #Docker学习笔记
+```language
+              _ _       _                    _
+__      _____| | |   __| | ___  _ __   ___  | |
+\ \ /\ / / _ \ | |  / _` |/ _ \| '_ \ / _ \ | |
+ \ V  V /  __/ | | | (_| | (_) | | | |  __/ |_|
+  \_/\_/ \___|_|_|  \__,_|\___/|_| |_|\___| (_)
+                                              
+ 
+ 
+ 
+                        ##        .
+                  ## ## ##       ==
+               ## ## ## ##      ===
+           /""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+           \______ o          __/
+             \    \        __/
+              \____\______/
+ 
+              |          |
+           __ |  __   __ | _  __   _
+          /  \| /  \ /   |/  / _\ |
+          \__/| \__/ \__ |\_ \__  |
+ 
+```
 ##What is Docker?
 Docker是一个为开发者和系统管理员`构建`，`部署`，`运行`分布式应用的开源平台。包括：Docker Engine，可移植的轻量运行环境和包管理工具，及`Docker Hub`。Docker Hub是为分享应用和自动化工作流服务的云服务。Docker能够做到apps快速从组件装配并且消除开发，质量评估和产品环境间的冲突。因此，它可以在不改变文件的情况下，在电脑上，数据中心虚拟机，任何云上运行同一款app
 
@@ -15,3 +40,36 @@ Docker帮助开发者开发，部署，快速的高质量应用。
 此外，`Docker Engine`模块的标准化并以此作为部署单元使系统管理员更灵活的调整工作量。无论是否是空的物理机，或者data center VMs或者公共云，`workload deployment`会更加的灵活通过基础架构技术，workload deployment会被企业的政策和次序来驱动。另外，Docker Engine的轻量运行环境允许快速的上架，下架以此响应需求的快速变化。
 
 总的来说，Docker帮助系统管理员快速，稳定的在任何基础设施上部署和运行任何应用。
+
+##How is this different from Virtual Machines?
+###Virtual Machines
+![](img/2015-05-11-intro-1.png)
+
+每个运行在虚拟机里的应用本身的大小的数量级在`MB`，而再加上应用依赖的包和二进制库以及运行应用的虚拟机后，整个系统的大小就会达到惊人的`GB`级别
+
+###Docker
+![](img/2015-05-11-intro-2.png)
+
+Docker引擎容器仅仅包含一个用和它的依赖项，它作为一个孤立的进程运行在操作系统的用户空间，和其它容器共享内核。因此，它享有特定的资源和虚拟机那样分配的优势，同时更加便捷和高效。
+
+##try it
+
+```shell
+docker version
+docker search imageName
+docker pull image(<username>/<repository>)
+docker run [image name] [command]
+docker run [image name] [apt-get install -y ping]
+```
+
+>Save your change for image
+
+保存更改使你下次使用这个镜像时能够从这个点开始运行镜像
+docker中用来保存状态的操作叫做`commit`
+```shell
+docker ps -l    查看要保存的进程ID
+docker commit id [new image name]
+docker commit 698a learn/ping
+docker run learn/ping ping www.baidu.com
+docker inspect [image id] 查看image的详细信息
+```
