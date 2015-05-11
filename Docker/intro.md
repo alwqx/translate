@@ -73,3 +73,10 @@ docker commit 698a learn/ping
 docker run learn/ping ping www.baidu.com
 docker inspect [image id] 查看image的详细信息
 ```
+
+>push you images to Docker Hub
+
+```language
+docker images....查看当前主机上有多少个镜像
+docker push [image name]
+```
