@@ -60,3 +60,5 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 * sudo docker logs [container name]...查看容器日志和输出信息
 * docker logs clever_hypatia 
 * docker stop [container name] ...停止容器
+
+[原文链接](https://docs.docker.com/userguide/dockerizing/)
