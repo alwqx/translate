@@ -2,6 +2,7 @@
 >前面已经介绍了许多基础的知识，现在我们来一起学习如何管理Docker容器里面以及容器之间的数据
 
 先介绍两种原始的方法来管理Docker中的应用
+
 * ata volumes
 * Data volume container
 
