@@ -20,6 +20,7 @@ Docker是很流行的容器技术。它主要有以下3个特点：
 
 ##translation
 * [Distributed Systems: What is a simple explanation of the Paxos algorithm?](http://dockone.io/article/640)
+* [Continuous Integration, Delivery or Deployment with Jenkins, Docker and Ansible](http://dockone.io/article/668)
 
 ##Docker资源汇总
 * [Docker官网]()
