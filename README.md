@@ -1,14 +1,13 @@
-![](http://7xizmp.com1.z0.glb.clouddn.com/docker-wallpaper-black.jpg)
+# Articles translated by adolphlwq
 
-#Introduction to Docker
-Docker是很流行的容器技术。它主要有以下3个特点：
-* 轻量
-* 快速
-* 弱安全
+## Intention
+- learn English
+- practice
+- persevere
 
-个人觉得`轻量`和`快速`是docker能够流行的主要原因。2014年自己就对Docker很感兴趣了，结果到2015.5才开始学习。这个笔记主要记录学习的总结和体会，方便以后复习。
+## List
 
-## Article list
+### 2015
 * [What is Docker](http://segmentfault.com/a/1190000002756858)
 * [Dockerize your application](http://segmentfault.com/a/1190000002760996)
 * [Working with Containers](http://segmentfault.com/a/1190000002761949)
@@ -17,20 +16,16 @@ Docker是很流行的容器技术。它主要有以下3个特点：
 * [Managing Data in Containers](http://segmentfault.com/a/1190000002774628)
 * [Apply custom metadata](http://segmentfault.com/a/1190000002779151)
 * [Working with Docker Hub](http://segmentfault.com/a/1190000003710249)
+* [一篇文章带你了解Paxos算法](http://dockone.io/article/640)
+* [使用Jenkins、Docker和Ansible进行持续集成和交付](http://dockone.io/article/668)
+* [DockerCon 2015：Docker公司提出将重点关注容器安全](http://dockone.io/article/833)
 
-##translation
-* [Distributed Systems: What is a simple explanation of the Paxos algorithm?](http://dockone.io/article/640)
-* [Continuous Integration, Delivery or Deployment with Jenkins, Docker and Ansible](http://dockone.io/article/668)
+### 2016
+* [三种容器网络方案](http://dockone.io/article/1754)
+* [10个小技巧帮助Devops走向成功](http://dockone.io/article/1781)
+* [沃尔玛如何使用OneOps、Jenkins、Nexus和Kubernetes管理200+配送中心](http://dockone.io/article/1824)
 
-##Docker资源汇总
-* [Docker官网]()
-* [官方Hub](http://hub.docker.com)
-* [官方文档](http://docs.docker.com/)
-* [github源代码](https://github.com/docker/docker)
-* [Docker的IRC频道]()
-* [csdnDocker社区](http://docker.csdn.net/)
-* [stackoverflow-Docker频道](http://stackoverflow.com/search?q=docker)
-* [社区整理的docker项目](http://blog.docker.com/2013/07/docker-projects-from-the-docker-community/)
-* [Docker图形化工具DockerUI](https://github.com/crosbymichael/dockerui)
-* [DockerUI翻译](http://liubin.org/2014/02/18/dockerui-web-based-docker-management-tool/)
+### 2017
+1. [CoreOS的Tectonic新发行版支持Kubernetes自我管理](https://blog.adolphlwq.xyz/coreos-offers-self-hosting-kubernetes-new-tectonic-release/)
 
+## TODOs
