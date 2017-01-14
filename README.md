@@ -27,4 +27,4 @@
 - [X] 2017
   - [X] [CoreOS的Tectonic新发行版支持Kubernetes自我管理](/2017/01-coreos-offers-self-hosting-kubernetes-new-tectonic-release.md)
   - [X] [Kubernetes持续部署Docker Apps](/2017/02-continuous-deployment-of-docker-apps-to-kubernetes.md)
-  - [ ] [2017 is the year that front-end developers should go back and master the basics](https://medium.freecodecamp.com/what-to-learn-in-2017-if-youre-a-frontend-developer-b6cfef46effd#.ylgsxg98d)
+  - [X] [2017年前端开发者应该回归初心并掌握基础知识](/2017/03-what-to-learn-in-2017-if-youre-a-frontend-developer.md)
