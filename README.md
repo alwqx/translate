@@ -29,3 +29,4 @@
 1. [CoreOS的Tectonic新发行版支持Kubernetes自我管理](https://blog.adolphlwq.xyz/coreos-offers-self-hosting-kubernetes-new-tectonic-release/)
 
 ## TODOs
+- [ ] [2017 is the year that front-end developers should go back and master the basics](https://medium.freecodecamp.com/what-to-learn-in-2017-if-youre-a-frontend-developer-b6cfef46effd#.ylgsxg98d)
