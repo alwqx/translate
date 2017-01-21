@@ -28,3 +28,4 @@
   - [X] [CoreOS的Tectonic新发行版支持Kubernetes自我管理](/2017/01-coreos-offers-self-hosting-kubernetes-new-tectonic-release.md)
   - [X] [Kubernetes持续部署Docker Apps](/2017/02-continuous-deployment-of-docker-apps-to-kubernetes.md)
   - [X] [2017年前端开发者应该回归初心并掌握基础知识](/2017/03-what-to-learn-in-2017-if-youre-a-frontend-developer.md)
+  - [X] [2017年预测：云原生应用将要到来的5件事](/2017/04-predictions-five-things-to-come-for-cloud-native-applications.md)
