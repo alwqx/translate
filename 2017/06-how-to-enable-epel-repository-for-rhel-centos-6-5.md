@@ -21,6 +21,7 @@
 - [原文链接](http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)
 - [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
 
 >这篇指南文章教你如何在`RHEL/CentOS 7.x/6.x/5.x`系统中开启EPEL仓库支持，以便你可以使用`yum`命令
 安装额外的标准开源软件包。

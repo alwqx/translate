@@ -1,5 +1,20 @@
 # Kubernetes持续部署Docker Apps
 
+<!-- TOC -->
+
+- [Kubernetes持续部署Docker Apps](#kubernetes持续部署docker-apps)
+    - [说明](#说明)
+    - [集成Codeship到Kubernetes](#集成codeship到kubernetes)
+    - [Push到Google Container Registry](#push到google-container-registry)
+
+<!-- /TOC -->
+
+## 说明
+- [原文链接](https://blog.codeship.com/continuous-deployment-of-docker-apps-to-kubernetes/)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+
 >这一系列文章中，我们介绍过了[using Kubernetes for deployments](https://blog.codeship.com/using-kubernetes-for-deployments/)。本篇我们开始集成Codeship到工作流中。
 
 假设已经有了Kubernetes的Deployment（注意我们上篇文章中已经讨论了“Deployment”和Kubernetes中“Deployment”这两个概念的区别），现在我们该如何集成到我们自己的Codeship工作流中呢？最终答案取决于Kubernetes的部署模式，因为Kubernetes官方文档使用Google Cloud作为案例，我也会使用这个部署模式。

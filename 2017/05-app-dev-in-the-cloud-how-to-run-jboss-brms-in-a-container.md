@@ -1,4 +1,19 @@
 # 云端App开发：如何在容器中运行JBoss BRMS
+
+<!-- TOC -->
+
+- [云端App开发：如何在容器中运行JBoss BRMS](#云端app开发如何在容器中运行jboss-brms)
+    - [说明](#说明)
+    - [容器化JBoss Business Rules Management System (BRMS)](#容器化jboss-business-rules-management-system-brms)
+
+<!-- /TOC -->
+
+## 说明
+- [原文链接](https://dzone.com/articles/app-dev-in-the-cloud-how-to-run-jboss-brms-in-a-co)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+
 >本文中，我们将介绍如何在云端容器中运行JBoss BRMS，云环境可以是私有云或者其它云解决方案。
 
 我有一系列文章来跟你解释[为什么应用开发者不能再忽视技术栈](http://www.schabell.org/2016/02/appdev-cloud-stack-cant-ignore-stack-anymore.html)，这里的技术栈指的是

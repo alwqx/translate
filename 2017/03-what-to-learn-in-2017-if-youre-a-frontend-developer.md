@@ -1,8 +1,24 @@
 # 2017年前端开发者应该回归初心并掌握基础知识
 
-原文链接:[2017 is the year that front-end developers should go back and master the basics](https://medium.freecodecamp.com/what-to-learn-in-2017-if-youre-a-frontend-developer-b6cfef46effd#.u4w2hcpq8)
+<!-- TOC -->
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+- [2017年前端开发者应该回归初心并掌握基础知识](#2017年前端开发者应该回归初心并掌握基础知识)
+    - [说明](#说明)
+    - [学习如何编写可读的代码](#学习如何编写可读的代码)
+    - [深入学习JavaScript](#深入学习javascript)
+    - [学习函数式编程](#学习函数式编程)
+    - [学习设计基础](#学习设计基础)
+    - [学习如何与他人协同工作](#学习如何与他人协同工作)
+    - [学习如何写对人类友好的信息](#学习如何写对人类友好的信息)
+    - [学习厚重的计算机科学智慧](#学习厚重的计算机科学智慧)
+
+<!-- /TOC -->
+
+## 说明
+- [原文链接](https://medium.freecodecamp.com/what-to-learn-in-2017-if-youre-a-frontend-developer-b6cfef46effd#.u4w2hcpq8)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
 
 【译者注】这篇文章组织得非常合理、友好。每个小标题提炼作者的观点，标题下面用简练的语言进行阐述，语言凝练而有说服力（是真的有说服力），然后给出作者认为很棒的资源。既阐述了世界观，也给出了方法论，可操作行很强。译者认为不仅适用于前端开发者，也适合后端、移动端、全端等。活该在`medium`上得到2.2k的赞。
 

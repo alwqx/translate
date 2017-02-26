@@ -1,7 +1,22 @@
 # 2017年预测：云原生应用将要到来的5件事
-[原文链接](http://www.pcquest.com/2017-predictions-five-things-to-come-for-cloud-native-applications/)
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
+<!-- TOC -->
+
+- [2017年预测：云原生应用将要到来的5件事](#2017年预测云原生应用将要到来的5件事)
+    - [说明](#说明)
+    - [Kubenetes将打破容器调度三足鼎立现状](#kubenetes将打破容器调度三足鼎立现状)
+    - [容器会使用更多的虚拟化技术](#容器会使用更多的虚拟化技术)
+    - [容器持久化技术走向成熟并走向生产](#容器持久化技术走向成熟并走向生产)
+    - [容器安全方案爆发式增长](#容器安全方案爆发式增长)
+    - [Pivotal Cloud Foundry会得到应有的荣誉](#pivotal-cloud-foundry会得到应有的荣誉)
+
+<!-- /TOC -->
+
+## 说明
+- [原文链接](http://www.pcquest.com/2017-predictions-five-things-to-come-for-cloud-native-applications/)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
 
 毋庸置疑，2016年属于容器(container)。随着上游玩家（VMware启动vSphere，集成Container）入局，相继开发了很多开源项目。
 作为容器化背后的动力，云原生基础设施的地位不可否认。

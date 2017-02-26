@@ -1,5 +1,11 @@
 # CoreOS的Tectonic新发行版支持Kubernetes自我管理
 
+## 说明
+- [原文链接](http://thenewstack.io/coreos-offers-self-hosting-kubernetes-new-tectonic-release/)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [项目地址](https://github.com/adolphlwq/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+
 ![](https://cdn.thenewstack.io/media/2016/12/2544ad27-philips.jpg)
 
 为了充分利用Kubernetes原生管理容器化应用的能力，CoreOS更新了自家的Kubernetes商业发行版Tectonic，增加了无停机更新的功能。
@@ -39,7 +45,3 @@ CoreOS还发布了[Dex 2.0](https://github.com/coreos/dex)，基于[openID conne
 “我个人认为自我驱动技术的想法有很好的前景，那会是我们的最终方案。”DigitalOcean技术经理[Joonas Bergius](https://twitter.com/joonas)谈到新版本Tectonic时如是说。
 
 [Tectonic](https://tectonic.com/?_ga=1.162053372.1955225110.1481644180)现在免费支持10的节点。
-
-[原文链接](http://thenewstack.io/coreos-offers-self-hosting-kubernetes-new-tectonic-release/)
-
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可。
