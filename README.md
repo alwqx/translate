@@ -30,3 +30,4 @@
   - [X] [2017年前端开发者应该回归初心并掌握基础知识](/2017/03-what-to-learn-in-2017-if-youre-a-frontend-developer.md)
   - [X] [2017年预测：云原生应用将要到来的5件事](/2017/04-predictions-five-things-to-come-for-cloud-native-applications.md)
   - [X] [云端App开发：如何在容器中运行JBoss BRMS(本文是广告软文，没技术含量)](/2017/05-app-dev-in-the-cloud-how-to-run-jboss-brms-in-a-container.md)
+  - [X] [RHEL/CentOS 7.x/6.x/5.x开启EPEL仓库](/2017/06-how-to-enable-epel-repository-for-rhel-centos-6-5.md)
