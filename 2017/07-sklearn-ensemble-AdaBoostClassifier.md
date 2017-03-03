@@ -1,9 +1,26 @@
-一个Adaboost分类器。
+# 一个Adaboost分类器。
+
+<!-- TOC -->
+
+- [一个Adaboost分类器。](#一个adaboost分类器)
+    - [说明](#说明)
+    - [参数](#参数)
+    - [属性](#属性)
+
+<!-- /TOC -->
+
+## 说明
+- [原文链接](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier)
+- [翻译：@muzhenxu](https://github.com/muzhenxu)
+- [项目地址](https://github.com/muzhenxu/translate)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+
 Adaboost分类器是一个超估计。它通过在原始数据集上拟合一个分类器开始，然后在相同的数据集上调整误分类样本的权重，并用其再次拟合相同分类器，因此接下来的分类器会更关注于难以正确分类的样本。
 
 这个类使用了被称为Adaboost-SAMME的算法。
 
-参数：
+## 参数
+
 基分类器：可选（默认为决策树分类器）
     它是boosting（提升）集成算法的基分类器。它需要支持带权重样本，合适的class_和n_classes_属性。
 
@@ -19,7 +36,8 @@ Adaboost分类器是一个超估计。它通过在原始数据集上拟合一个
 随机状态：整型，随机状态实例或者None，可选（默认为None）
     如果是int，它就是用于随机数生成器的随机种子;如果是随机状态实例，它是一个随机数生成器;如果是None，随机数生成器通过np.random使用随机状态实例。
 
-属性：
+## 属性
+
 分类器：分类器列表
     拟合的子分类器集合。
 
