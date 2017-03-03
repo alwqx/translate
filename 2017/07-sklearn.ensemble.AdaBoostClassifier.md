@@ -1,8 +1,8 @@
-# 一个Adaboost分类器。
+# Adaboost分类器。
 
 <!-- TOC -->
 
-- [一个Adaboost分类器。](#一个adaboost分类器)
+- [Adaboost分类器。](#adaboost分类器)
     - [说明](#说明)
     - [参数](#参数)
     - [属性](#属性)
