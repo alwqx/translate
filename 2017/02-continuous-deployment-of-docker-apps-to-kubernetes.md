@@ -13,7 +13,7 @@
 - [原文链接](https://blog.codeship.com/continuous-deployment-of-docker-apps-to-kubernetes/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)
 - [项目地址](https://github.com/adolphlwq/translate)
-- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 >这一系列文章中，我们介绍过了[using Kubernetes for deployments](https://blog.codeship.com/using-kubernetes-for-deployments/)。本篇我们开始集成Codeship到工作流中。
 

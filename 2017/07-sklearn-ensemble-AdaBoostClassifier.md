@@ -13,7 +13,7 @@
 - [原文链接](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier)
 - [翻译：@muzhenxu](https://github.com/muzhenxu)
 - [项目地址](https://github.com/muzhenxu/translate)
-- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" />
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 Adaboost分类器是一个超估计。它通过在原始数据集上拟合一个分类器开始，然后在相同的数据集上调整误分类样本的权重，并用其再次拟合相同分类器，因此接下来的分类器会更关注于难以正确分类的样本。
 
