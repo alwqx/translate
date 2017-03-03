@@ -1,8 +1,8 @@
-# Adaboost回归器。
+# Adaboost回归器
 
 <!-- TOC -->
 
-- [Adaboost回归器。](#adaboost回归器)
+- [Adaboost回归器](#adaboost回归器)
     - [说明](#说明)
     - [参数](#参数)
     - [属性](#属性)
