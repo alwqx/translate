@@ -42,11 +42,12 @@
   - [X] [RHEL/CentOS 7.x/6.x/5.x开启EPEL仓库](/2017/06-how-to-enable-epel-repository-for-rhel-centos-6-5.md)
   - [X] [sklearn.ensemble.AdaBoostClassifier](/2017/07-sklearn.ensemble.AdaBoostClassifier.md)
   - [X] [sklearn.ensemble.AdaBoostRegressor](/2017/08-sklearn.ensemble.AdaBoostRegressor.md)
+  - [X] [Docker与深度学习](/2017/09-deep-learning-with-docker.md)  
 
 ## Technical Support
 - [tt](https://github.com/adolphlwq/tt): automatically genetates template post.
 - [qBlog](https://github.com/adolphlwq/qBlog): blog based on Ghost.
 - [QuanTalk](https://blog.adolphlwq.xyz/tag/translate): where translated articles are publish.
-- WeChat:QuanTalk: 
+- WeChat(QuanTalk): 
 
 ![](http://og2hmb2p7.bkt.clouddn.com/qrcode_for_gh_abe5e5036d49_258.jpg)
