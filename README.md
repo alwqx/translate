@@ -5,6 +5,8 @@
 - [Articles translated by adolphlwq](#articles-translated-by-adolphlwq)
     - [Intention](#intention)
     - [TODOs](#todos)
+    - [系列文章](#系列文章)
+        - [2017](#2017)
     - [Technical Support](#technical-support)
 
 <!-- /TOC -->
@@ -42,7 +44,14 @@
   - [X] [RHEL/CentOS 7.x/6.x/5.x开启EPEL仓库](/2017/06-how-to-enable-epel-repository-for-rhel-centos-6-5.md)
   - [X] [sklearn.ensemble.AdaBoostClassifier](/2017/07-sklearn.ensemble.AdaBoostClassifier.md)
   - [X] [sklearn.ensemble.AdaBoostRegressor](/2017/08-sklearn.ensemble.AdaBoostRegressor.md)
-  - [X] [Docker与深度学习](/2017/09-deep-learning-with-docker.md)  
+  - [X] [Docker与深度学习](/2017/09-deep-learning-with-docker.md) 
+
+## 系列文章
+### 2017
+- [ ] restful api design
+  - [X] [RESTful API模式系列一：简介](/2017/10-restful-api-design_introduction.md)
+  - [X] [RESTful API模式系列二：API设计者的职责](/2017/11-restful-api-design_the-job-of-api-designer.md)
+
 
 ## Technical Support
 - [tt](https://github.com/adolphlwq/tt): automatically genetates template post.
