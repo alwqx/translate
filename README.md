@@ -51,6 +51,7 @@
 - [ ] restful api design
   - [X] [RESTful API模式系列一：简介](/2017/10-restful-api-design_introduction.md)
   - [X] [RESTful API模式系列二：API设计者的职责](/2017/11-restful-api-design_the-job-of-api-designer.md)
+  - [X] [RESTful API模式系列三：资源](/2017/12-restful-api-design_resources.md)
 
 
 ## Technical Support
