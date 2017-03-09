@@ -1,8 +1,8 @@
-# RESTful API模式系列二：API设计者的职责
+# RESTful API设计系列二：API设计者的职责
 
 <!-- TOC -->
 
-- [RESTful API模式系列二：API设计者的职责](#restful-api模式系列二api设计者的职责)
+- [RESTful API设计系列二：API设计者的职责](#restful-api设计系列二api设计者的职责)
     - [说明](#说明)
     - [应用](#应用)
     - [API代码](#api代码)

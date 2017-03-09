@@ -1,8 +1,8 @@
-# RESTful API模式系列三：资源
+# RESTful API设计系列三：资源
 
 <!-- TOC -->
 
-- [RESTful API模式系列三：资源](#restful-api模式系列三资源)
+- [RESTful API设计系列三：资源](#restful-api设计系列三资源)
     - [说明](#说明)
     - [资源数据](#资源数据)
     - [应用数据](#应用数据)
