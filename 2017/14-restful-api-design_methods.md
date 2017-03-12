@@ -12,6 +12,7 @@
 我已经阐明资源是RESTful API中的基本概念。每个资源都有单独对应的URL。方法可以通过API作用到资源上。
 
 下表列出了标准方法，以及对资源或集合操作的明确解释：
+
 | Method | Scope | Semantics |
 |:------:|:------:|:------:|
 |GET|collection| Retrieve all resources in a collection |
