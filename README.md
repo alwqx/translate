@@ -48,13 +48,14 @@
 
 ## 系列文章
 ### 2017
-- [ ] restful api design
+- [X] restful api design
   - [X] [RESTful API设计系列一：简介](/2017/10-restful-api-design_introduction.md)
   - [X] [RESTful API设计系列二：API设计者的职责](/2017/11-restful-api-design_the-job-of-api-designer.md)
   - [X] [RESTful API设计系列三：资源](/2017/12-restful-api-design_resources.md)
   - [X] [RESTful API设计系列四：URLs](/2017/13-restful-api-design_urls.md)
   - [X] [RESTful API设计系列五：方法](/2017/14-restful-api-design_methods.md)
   - [X] [RESTful API设计系列六：关系](/2017/15-restful-api-design_relationships.md)
+  - [X] [RESTful API设计系列七：表单](/2017/16-restful-api-design_forms.md)
 
 
 ## Technical Support
