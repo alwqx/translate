@@ -45,6 +45,7 @@
   - [X] [sklearn.ensemble.AdaBoostClassifier](/2017/07-sklearn.ensemble.AdaBoostClassifier.md)
   - [X] [sklearn.ensemble.AdaBoostRegressor](/2017/08-sklearn.ensemble.AdaBoostRegressor.md)
   - [X] [Docker与深度学习](/2017/09-deep-learning-with-docker.md)
+  - [X] [容器编排初探：探索Docker swarm mode、Kubernetes和Mesosphere](/2017/17-container-orchestration-primer-swarm-k8s-mesosphere.md)
 
 ## 系列文章
 ### 2017
