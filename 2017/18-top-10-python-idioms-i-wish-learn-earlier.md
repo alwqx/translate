@@ -1,5 +1,23 @@
 # 我希望更早学会的10个python代码片段
-	
+
+<!-- TOC -->
+
+
+- [说明](#说明)
+- [Python 3-style printing in Python 2](#python-3-style-printing-in-python-2)
+- [enumerate(list)](#enumeratelist)
+- [Chained comparison operators](#chained-comparison-operators)
+- [collections.Counter](#collectionscounter)
+- [Dict comprehensions](#dict-comprehensions)
+- [Executing shell commands with subprocess](#executing-shell-commands-with-subprocess)
+- [dict .get() and .iteritems() methods](#dict-get-and-iteritems-methods)
+- [Tuple unpacking for switching variables](#tuple-unpacking-for-switching-variables)
+- [Introspection tools](#introspection-tools)
+- [PEP-8 compliant string chaining](#pep-8-compliant-string-chaining)
+- [译者说](#译者说)
+
+<!-- /TOC -->
+
 ## 说明
 - [原文链接](http://prooffreaderplus.blogspot.sg/2014/11/top-10-python-idioms-i-wished-id.html)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)
