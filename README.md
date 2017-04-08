@@ -47,6 +47,7 @@
   - [X] [Docker与深度学习](/2017/09-deep-learning-with-docker.md)
   - [X] [容器编排初探：探索Docker swarm mode、Kubernetes和Mesosphere](/2017/17-container-orchestration-primer-swarm-k8s-mesosphere.md)
   - [X] [我希望更早学会的10个python代码片段](/2017/18-top-10-python-idioms-i-wish-learn-earlier.md)
+  - [X] [15分钟Bash进阶](/2017/19-better-bash-scripting-in-15-minutes.md)
 
 ## 系列文章
 ### 2017
