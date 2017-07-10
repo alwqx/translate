@@ -49,6 +49,8 @@
   - [X] [我希望更早学会的10个python代码片段](/2017/18-top-10-python-idioms-i-wish-learn-earlier.md)
   - [X] [15分钟Bash进阶](/2017/19-better-bash-scripting-in-15-minutes.md)
   - [X] [3年半，50万行Golang代码](/2017/20-3.5yrs-500k-lines-of-go.md)
+  - [X] [docker基础：查找镜像和运行容器](/2017/22-find-image-run-container.md)
+  - [X] [Docker基础：连接容器](/2017/23-connect-containers.md)
 
 ## 系列文章
 ### 2017
@@ -60,7 +62,6 @@
   - [X] [RESTful API设计系列五：方法](/2017/14-restful-api-design_methods.md)
   - [X] [RESTful API设计系列六：关系](/2017/15-restful-api-design_relationships.md)
   - [X] [RESTful API设计系列七：表单](/2017/16-restful-api-design_forms.md)
-  - [X] [docker基础：查找镜像和运行容器](/2017/22-find-image-run-container.md)
 
 
 ## Technical Support
