@@ -51,6 +51,7 @@
   - [X] [3年半，50万行Golang代码](/2017/20-3.5yrs-500k-lines-of-go.md)
   - [X] [docker基础：查找镜像和运行容器](/2017/22-find-image-run-container.md)
   - [X] [Docker基础：连接容器](/2017/23-connect-containers.md)
+  - [X] [为什么我不使用Kubernetes Ingress](/2017/24-kubernetes-ingress-why-i-do-not-use-it.md)
 
 ## 系列文章
 ### 2017
