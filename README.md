@@ -1,13 +1,12 @@
-# Articles translated by adolphlwq
+# Articles Translated by AdolphLWQ
 
 <!-- TOC -->
 
-- [Articles translated by adolphlwq](#articles-translated-by-adolphlwq)
-    - [Intention](#intention)
-    - [TODOs](#todos)
-    - [系列文章](#系列文章)
-        - [2017](#2017)
-    - [Technical Support](#technical-support)
+- [Intention](#intention)
+- [TODOs](#todos)
+- [系列文章](#系列文章)
+- [2017](#2017)
+- [Technical Support](#technical-support)
 
 <!-- /TOC -->
 
@@ -17,6 +16,8 @@
 - persevere
 
 ## TODOs
+- [X] 2019
+  - [X] week 1 [2018AI最佳应用回顾](/2019/01-a-look-back-at-the-year's-best-ai-stories.md)
 - [X] 2018
   - [X] [CNCF项目通过Kubernetes扩展MySQL](/2018/01-cncf-host-vitess.md)
 - [X] 2017
