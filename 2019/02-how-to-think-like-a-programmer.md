@@ -155,5 +155,7 @@
 - [翻译：@AdolphLWQ](https://github.com/adolphlwq)
 - [项目地址](https://github.com/adolphlwq/translate)
 - [tt](https://github.com/adolphlwq/tt)：自动生成翻译模板
-- 用时:
+- 用时: 3h（人机混合）
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+
+![](https://image-static.segmentfault.com/114/123/1141239503-5c3b027e21ae3_articlex)
