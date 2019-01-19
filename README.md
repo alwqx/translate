@@ -19,6 +19,7 @@
 - [X] 2019
   - [X] week 1 [2018AI最佳应用回顾](/2019/01-a-look-back-at-the-year's-best-ai-stories.md)
   - [X] week 2 [如何像程序员一样思考 - 解决问题的经验与教训](/2019/02-how-to-think-like-a-programmer.md)
+  - [X] week 3 [AutoML：自动设计自动驾驶机器学习模型](/2019/03-automating-the-design-of-machine-learning-models-for-autonomous-driving.md)
 - [X] 2018
   - [X] [CNCF项目通过Kubernetes扩展MySQL](/2018/01-cncf-host-vitess.md)
 - [X] 2017
