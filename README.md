@@ -1,21 +1,39 @@
-# Articles Translated by AdolphLWQ
+# Translate
+![知识共享协议（CC协议）](https://img.shields.io/badge/License-Creative%20Commons-brightgreen.svg)
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
 <!-- TOC -->
 
 - [Intention](#intention)
-- [TODOs](#todos)
+- [Participate](#participate)
+- [Platform](#platform)
+- [Articles](#articles)
+    - [2017](#2019)
+    - [2017](#2018)
+    - [2017](#2017)
 - [系列文章](#系列文章)
-- [2017](#2017)
+    - [2017](#2017)
 - [Technical Support](#technical-support)
 
 <!-- /TOC -->
 
 ## Intention
+- broaden horizon
 - learn English
 - practice
-- persevere
 
-## TODOs
+## Participate
+- Advice(建议)/Review(指正) for [`Issue`](https://github.com/adolphlwq/translate/issues/new)
+- Contributions for [`Fork` and `Pull Requst`](https://github.com/adolphlwq/translate/fork)
+
+## Platform
+- [QuanTalk Blog](https://blog.adolphlwq.xyz)
+- [WeChat Map]()
+    - ![](/images/mp/wechat_QuanTalk.jpg)
+- [Toutiao](https://www.toutiao.com/c/user/109259952103/#mid=1620744253628420)
+- [SegmentFault](https://segmentfault.com/blog/quantalk)
+
+## Articles
 - [X] 2019
   - [X] week 1 [2018AI最佳应用回顾](/2019/01-a-look-back-at-the-year's-best-ai-stories.md)
   - [X] week 2 [如何像程序员一样思考 - 解决问题的经验与教训](/2019/02-how-to-think-like-a-programmer.md)
@@ -72,8 +90,4 @@
 
 ## Technical Support
 - [tt](https://github.com/adolphlwq/tt): automatically genetates template post.
-- [qBlog](https://github.com/adolphlwq/qBlog): blog based on Ghost.
-- [QuanTalk](https://blog.adolphlwq.xyz/tag/translate): where translated articles are publish.
-- WeChat(QuanTalk):
-
-![](http://og2hmb2p7.bkt.clouddn.com/qrcode_for_gh_abe5e5036d49_258.jpg)
+- [Ghost Dockerfile](https://github.com/adolphlwq/ghost-blog): blog based on Ghost.
