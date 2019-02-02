@@ -7,7 +7,6 @@
 - [Translate](#translate)
 - [Intention](#intention)
 - [Participate](#participate)
-- [Platform](#platform)
 - [Articles](#articles)
     - [2019](#2019)
     - [2018](#2018)
@@ -16,6 +15,7 @@
     - [2015](#2015)
 - [系列文章](#系列文章)
     - [2017](#2017-1)
+- [Platform](#platform)
 - [Technical Support](#technical-support)
 
 <!-- /TOC -->
@@ -29,18 +29,12 @@
 - Advice(建议)/Review(指正) for [`Issue`](https://github.com/adolphlwq/translate/issues/new)
 - Contributions for [`Fork` and `Pull Requst`](https://github.com/adolphlwq/translate/fork)
 
-## Platform
-- [QuanTalk Blog](https://blog.adolphlwq.xyz)
-- [WeChat Map]()
-    - ![](/images/mp/wechat_QuanTalk.jpg)
-- [Toutiao](https://www.toutiao.com/c/user/109259952103/#mid=1620744253628420)
-- [SegmentFault](https://segmentfault.com/blog/quantalk)
-
 ## Articles
 ### 2019
 - [X] week 1 [2018AI最佳应用回顾](/2019/01-a-look-back-at-the-year's-best-ai-stories.md)
 - [X] week 2 [如何像程序员一样思考 - 解决问题的经验与教训](/2019/02-how-to-think-like-a-programmer.md)
 - [X] week 3 [AutoML：自动设计自动驾驶机器学习模型](/2019/03-automating-the-design-of-machine-learning-models-for-autonomous-driving.md)
+- [X] week 4 [C10K问题一：预备知识](/2019/04-the-c10k-problem-1.md)
 
 ### 2018
 - [X] [CNCF项目通过Kubernetes扩展MySQL](/2018/01-cncf-host-vitess.md)
@@ -92,6 +86,12 @@
   - [X] [RESTful API设计系列六：关系](/2017/15-restful-api-design_relationships.md)
   - [X] [RESTful API设计系列七：表单](/2017/16-restful-api-design_forms.md)
 
+## Platform
+- [QuanTalk Blog](https://blog.adolphlwq.xyz)
+- [WeChat Map]()
+    - ![](/images/mp/wechat_QuanTalk.jpg)
+- [Toutiao](https://www.toutiao.com/c/user/109259952103/#mid=1620744253628420)
+- [SegmentFault](https://segmentfault.com/blog/quantalk)
 
 ## Technical Support
 - [tt](https://github.com/adolphlwq/tt): automatically genetates template post.
