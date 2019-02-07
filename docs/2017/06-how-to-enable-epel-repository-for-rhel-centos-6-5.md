@@ -1,22 +1,5 @@
 # RHEL/CentOS 7.x/6.x/5.x开启EPEL仓库
 
-<!-- TOC -->
-
-- [RHEL/CentOS 7.x/6.x/5.x开启EPEL仓库](#rhelcentos-7x6x5x开启epel仓库)
-    - [说明](#说明)
-    - [EPEL是什么？](#epel是什么)
-    - [为什么使用EPEL仓库？](#为什么使用epel仓库)
-    - [如何在RHEL/CentOS 7/6/5上开启EPEL](#如何在rhelcentos-765上开启epel)
-        - [RHEL/CentOS 7 64bit](#rhelcentos-7-64bit)
-        - [RHEL/CentOS 6 32-64 Bit](#rhelcentos-6-32-64-bit)
-        - [RHEL/CentOS 5 32-64 Bit](#rhelcentos-5-32-64-bit)
-        - [RHEL/CentOS 4 32-64 Bit](#rhelcentos-4-32-64-bit)
-    - [如何验证EPEL仓库](#如何验证epel仓库)
-    - [我如何使用EPEL？](#我如何使用epel)
-    - [译者观点](#译者观点)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

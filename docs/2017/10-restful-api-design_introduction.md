@@ -1,14 +1,5 @@
 # RESTful API设计系列一：简介
 
-<!-- TOC -->
-
-- [RESTful API设计系列一：简介](#restful-api设计系列一简介)
-    - [说明](#说明)
-    - [简介](#简介)
-    - [译者说](#译者说)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://restful-api-design.readthedocs.io/en/latest/intro.html)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

@@ -1,16 +1,5 @@
 # RESTful API设计系列二：API设计者的职责
 
-<!-- TOC -->
-
-- [RESTful API设计系列二：API设计者的职责](#restful-api设计系列二api设计者的职责)
-    - [说明](#说明)
-    - [应用](#应用)
-    - [API代码](#api代码)
-    - [客户端](#客户端)
-    - [译者说](#译者说)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://restful-api-design.readthedocs.io/en/latest/scope.html#the-application)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

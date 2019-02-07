@@ -1,14 +1,5 @@
 # Kubernetes持续部署Docker Apps
 
-<!-- TOC -->
-
-- [Kubernetes持续部署Docker Apps](#kubernetes持续部署docker-apps)
-    - [说明](#说明)
-    - [集成Codeship到Kubernetes](#集成codeship到kubernetes)
-    - [Push到Google Container Registry](#push到google-container-registry)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](https://blog.codeship.com/continuous-deployment-of-docker-apps-to-kubernetes/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

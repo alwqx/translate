@@ -1,14 +1,5 @@
 # Adaboost回归器
 
-<!-- TOC -->
-
-- [Adaboost回归器](#adaboost回归器)
-    - [说明](#说明)
-    - [参数](#参数)
-    - [属性](#属性)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostRegressor.html#sklearn.ensemble.AdaBoostRegressor)
 - [翻译：@muzhenxu](https://github.com/muzhenxu)

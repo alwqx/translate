@@ -1,17 +1,5 @@
 # 2017年预测：云原生应用将要到来的5件事
 
-<!-- TOC -->
-
-- [2017年预测：云原生应用将要到来的5件事](#2017年预测云原生应用将要到来的5件事)
-    - [说明](#说明)
-    - [Kubenetes将打破容器调度三足鼎立现状](#kubenetes将打破容器调度三足鼎立现状)
-    - [容器会使用更多的虚拟化技术](#容器会使用更多的虚拟化技术)
-    - [容器持久化技术走向成熟并走向生产](#容器持久化技术走向成熟并走向生产)
-    - [容器安全方案爆发式增长](#容器安全方案爆发式增长)
-    - [Pivotal Cloud Foundry会得到应有的荣誉](#pivotal-cloud-foundry会得到应有的荣誉)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://www.pcquest.com/2017-predictions-five-things-to-come-for-cloud-native-applications/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

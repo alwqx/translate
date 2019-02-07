@@ -1,23 +1,5 @@
 # RESTful API设计系列七：表单
 
-<!-- TOC -->
-
-- [RESTful API设计系列七：表单](#restful-api设计系列七表单)
-    - [说明](#说明)
-    - [类型定义](#类型定义)
-    - [服务定义](#服务定义)
-    - [使用表单引导输入](#使用表单引导输入)
-    - [表单描述语言](#表单描述语言)
-        - [Form Metadata](#form-metadata)
-        - [Fields](#fields)
-        - [Constraints](#constraints)
-        - [Checking Constraints](#checking-constraints)
-        - [Building the Request Entity](#building-the-request-entity)
-    - [链接到表单](#链接到表单)
-    - [译者说](#译者说)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://restful-api-design.readthedocs.io/en/latest/forms.html)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

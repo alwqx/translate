@@ -1,13 +1,5 @@
 # 云端App开发：如何在容器中运行JBoss BRMS
 
-<!-- TOC -->
-
-- [云端App开发：如何在容器中运行JBoss BRMS](#云端app开发如何在容器中运行jboss-brms)
-    - [说明](#说明)
-    - [容器化JBoss Business Rules Management System (BRMS)](#容器化jboss-business-rules-management-system-brms)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](https://dzone.com/articles/app-dev-in-the-cloud-how-to-run-jboss-brms-in-a-co)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

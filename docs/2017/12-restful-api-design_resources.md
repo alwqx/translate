@@ -1,24 +1,5 @@
 # RESTful API设计系列三：资源
 
-<!-- TOC -->
-
-- [RESTful API设计系列三：资源](#restful-api设计系列三资源)
-    - [说明](#说明)
-    - [资源数据](#资源数据)
-    - [应用数据](#应用数据)
-    - [REST元数据](#rest元数据)
-    - [其它数据](#其它数据)
-    - [表示](#表示)
-        - [JSON格式](#json格式)
-        - [YAML格式](#yaml格式)
-        - [XML格式](#xml格式)
-        - [HTML格式](#html格式)
-    - [Content-Types](#content-types)
-    - [选择表式格式](#选择表式格式)
-    - [译者说](#译者说)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://restful-api-design.readthedocs.io/en/latest/resources.html)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

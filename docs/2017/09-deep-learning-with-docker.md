@@ -1,20 +1,5 @@
 # Docker与深度学习
 
-<!-- TOC -->
-
-- [Docker与深度学习](#docker与深度学习)
-    - [说明](#说明)
-    - [Why](#why)
-    - [应该怎么做](#应该怎么做)
-    - [Dockerized](#dockerized)
-    - [GPU](#gpu)
-    - [提示](#提示)
-    - [如何集成](#如何集成)
-    - [再现性](#再现性)
-    - [译者说](#译者说)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](https://affinelayer.com/docker/)
 - [翻译：@adolphlwq](https://github.com/adolphlwq)

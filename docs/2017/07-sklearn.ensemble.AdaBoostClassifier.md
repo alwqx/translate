@@ -1,14 +1,5 @@
 # Adaboost分类器
 
-<!-- TOC -->
-
-- [Adaboost分类器](#adaboost分类器)
-    - [说明](#说明)
-    - [参数](#参数)
-    - [属性](#属性)
-
-<!-- /TOC -->
-
 ## 说明
 - [原文链接](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html#sklearn.ensemble.AdaBoostClassifier)
 - [翻译：@muzhenxu](https://github.com/muzhenxu)
