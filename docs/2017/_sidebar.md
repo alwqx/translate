@@ -1,7 +1,7 @@
 - [首页](/)
 - [2019](2019/)
 - [2018](2018/)
-- 2017
+- [2017](2017/)
     - [CoreOS的Tectonic新发行版支持Kubernetes自我管理](2017/01-coreos-offers-self-hosting-kubernetes-new-tectonic-release)
     - [Kubernetes持续部署Docker Apps](2017/02-continuous-deployment-of-docker-apps-to-kubernetes)
     - [2017年前端开发者应该回归初心并掌握基础知识](2017/03-what-to-learn-in-2017-if-youre-a-frontend-developer)
