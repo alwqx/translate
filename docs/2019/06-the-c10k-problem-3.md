@@ -1,7 +1,7 @@
 # C10K问题三：IO策略之多客户端、非阻塞IO和准备就绪更改通知
 	
 ## 说明
-- [原文链接](http://www.kegel.com/c10k.html#nb.edge)
+- [原文链接](http://www.kegel.com/c10k.html#aio)
 - [翻译：@AdolphLWQ](https://github.com/adolphlwq)
 - [项目地址](https://github.com/adolphlwq/translate)
 - [tt](https://github.com/adolphlwq/tt)：自动生成翻译模板
