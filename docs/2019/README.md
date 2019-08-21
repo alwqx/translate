@@ -1,6 +1,6 @@
 # 2019
 
-7/52 ongoing...
+8/52 ongoing...
 
 - [2018AI最佳应用回顾](2019/01-a-look-back-at-the-year-best-ai-stories)
 - [如何像程序员一样思考 - 解决问题的经验与教训](2019/02-how-to-think-like-a-programmer)
@@ -9,3 +9,4 @@
 - [C10K问题二：IO策略之多客户端、非阻塞IO](2019/05-the-c10k-problem-2)
 - [C10K问题三：IO策略之多客户端、非阻塞IO和准备就绪更改通知](2019/06-the-c10k-problem-3)
 - [黑客图标](2019/07-hacker-emblem)
+- [使用Grail进行大规模基础设施管理](2019/08-uber-grail)
