@@ -15,7 +15,7 @@
 
 ## 发布平台
 - [GitHub Pages](https://adolphlwq.xyz/translate)
-- ![WeChat Map](https://i.loli.net/2019/02/07/5c5c431f896df.jpg)
+- ![WeChat Map](https://raw.githubusercontent.com/adolphlwq/osshub/master/oss/wechat/wechat_sysml.jpg)
 - [Toutiao](https://www.toutiao.com/c/user/109259952103/#mid=1620744253628420)
 - [SegmentFault](https://segmentfault.com/blog/quantalk)
 
