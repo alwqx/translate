@@ -1,5 +1,7 @@
 - [首页](/)
-- [Ray docs](ray/index)
+- [Ray docs](ray/)
+    - [Index](ray/index)
+    - [安装](ray/installation)
 - [2019](2019/)
 - [2018](2018/)
 - [2017](2017/)

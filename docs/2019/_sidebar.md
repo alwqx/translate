@@ -1,4 +1,5 @@
 - [首页](/)
+- [Ray docs](ray/)
 - [2019](2019/)
     - [2018AI最佳应用回顾](2019/01-a-look-back-at-the-year-best-ai-stories)
     - [如何像程序员一样思考 - 解决问题的经验与教训](2019/02-how-to-think-like-a-programmer)

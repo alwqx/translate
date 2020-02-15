@@ -2,7 +2,9 @@
 
 ![](https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png)
 
-[原文链接](https://ray.readthedocs.io/en/latest/)
+- [原文链接](https://ray.readthedocs.io/en/latest/)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 **Ray是一个快速、简单的框架，用于构建和运行分布式应用。**
 
