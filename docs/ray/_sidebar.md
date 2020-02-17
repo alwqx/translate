@@ -2,6 +2,7 @@
 - [Ray docs](ray/)
     - [Index](ray/index)
     - [安装](ray/installation)
+    - [核心功能预览](ray/walkthrough)
 - [2019](2019/)
 - [2018](2018/)
 - [2017](2017/)
