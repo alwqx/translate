@@ -3,6 +3,7 @@
     - [Index](ray/index)
     - [安装](ray/installation)
     - [核心功能预览](ray/walkthrough)
+    - [【部署】自动化集群搭建](ray/autoscaling)
 - [2019](2019/)
 - [2018](2018/)
 - [2017](2017/)
