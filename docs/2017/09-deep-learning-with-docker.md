@@ -59,7 +59,8 @@ env \
 ```
 
 尽管训练脚本的依赖很少（做到这样很伟大了），但是脚本使用的工具却有很多依赖，而且这些依赖文档不全面，组合在一个镜像中非常复杂繁琐。
-![](/images/2017/2017-09-pix2pix-dependencies.png)
+
+![2017-09-pix2pix-dependencies.png](https://i.loli.net/2020/02/19/n4bsLIfYZoTFeM1.png)
 
 如果你不小心弄乱了依赖，可能会遇到下面的错误：
 ```
@@ -69,7 +70,7 @@ luajit: symbol lookup error:
 
 Docker提供了一种方法，通过[Docker Hub](https://hub.docker.com/)分发二进制镜像（**译者注：**原文是`artifact`）。
 
-![](/images/2017/2017-09-pix2pix-docker.png)
+![2017-09-pix2pix-docker.png](https://i.loli.net/2020/02/19/94hDPMFxWRX5LjY.png)
 
 ## Dockerized
 在Linux server上直接安装docker和nvidia-docker，Docker容器可以访问GPU，没有明显的性能损失。
