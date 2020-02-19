@@ -1,4 +1,12 @@
 # 自动化集群搭建
+
+- [原文链接](https://ray.readthedocs.io/en/latest/autoscaling.html)
+- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+
+
+>该部分介绍了使用自带的autoscaler自动搭建集群的过程。Ray支持根据需要自动伸缩节点，一提高节点利用率，降低成本。
+
 Ray内建了autoscaler，让部署Ray集群很容易。只需要在本地机器运行`ray up`就可以启动或者更新位于云端或者内部的集群。一旦Ray集群运行起来，你就可以手动SSH到集群，或者通过提供的命令`ray attach`、`ray rsync-up`和`ray-exec`来访问集群和运行Ray程序。
 
 ## 搭建
@@ -202,3 +210,102 @@ Ray还提供了dashboard，它在head节点上通过HTTP访问(默认监听在`l
 Ray autoscaler还会以实例标签的形式报告每个节点的状态。在你的云提供商控制台，你可以点击节点，进入标签面板，然后添加标签`ray-node-status`作为列。这会帮你看到每个节点的状态。
 
 ![](https://ray.readthedocs.io/en/latest/_images/autoscaler-status.png)
+
+### 定制化启动集群
+我们鼓励你拷贝示例YAML文件并根据需要进行修改。这可能包括添加额外的命令来安装库或者同步本地数据文件。
+
+?>注意：如果你启动了自己定制化的节点，把该节点创建成新的机器镜像(或者docker容器)并在配置文件中使用是个好主意。这会worker设置时间，改善自动伸缩的效率。
+
+你的设置命令理想情况下应该是`幂等`的，即可以多次运行结果相同。这让Ray在节点创建后能够更新节点。通常你需要很小的修改使命令幂等，比如`git clone foo`可以改写为`test -e foo || git clone foo`，它首先会检查仓库是否已经克隆过了。
+
+大多数示例YAML文件都可以修改，这里有[最小YAML配置文件参考](https://github.com/ray-project/ray/tree/master/python/ray/autoscaler/aws/example-minimal.yaml)，你可以在[完全YAML配置文件](https://github.com/ray-project/ray/tree/master/python/ray/autoscaler/aws/example-full.yaml)找到可选字段的默认值。
+
+### 同步git分支
+一个常用的使用案例是同步本地git逻辑分支到集群所有worker上。但是，如果你只在设置命令中放置命令`git checkout <branch>`，autoscaler将不知道何时重新运行这条命令拉取更新。一个好的解决方案(`workaround`)是包含git SHA在输入中(分支更新后，文件的哈希值会变)：
+```shell
+file_mounts: {
+    "/tmp/current_branch_sha": "/path/to/local/repo/.git/refs/heads/<YOUR_BRANCH_NAME>",
+}
+
+setup_commands:
+    - test -e <REPO_NAME> || git clone https://github.com/<REPO_ORG>/<REPO_NAME>.git
+    - cd <REPO_NAME> && git fetch && git checkout `cat /tmp/current_branch_sha`
+```
+
+这个设置会告诉`ray up`从你个人电脑同步当前git分支的哈希值到集群的临时文件上(假设你已经把git branch head更新到仓库)。然后设置命令会读取文件并计算应该检出哪个哈希值到节点。**注意每个命令运行在自己的会话中**。最后，集群更新的工作流如下：
+1. git分支产生变更
+2. 使用`git commit`和`git push`提交变更
+3. 使用`ray up`更新Ray集群中的文件
+
+### 使用Amazon EFS
+要使用Amazon EFS，需要安装一些工具库并在`setup_commands`中挂载EFS。**注意这些指令只有在你使用AWS Autoscaler才生效**。
+
+?>注意：使用配置前你需要把`{{FileSystemId}}`替换成自己的EFS ID。你可能还要为实例设置正确的`SecurityGroupIds`。
+
+```shell
+setup_commands:
+    - sudo kill -9 `sudo lsof /var/lib/dpkg/lock-frontend | awk '{print $2}' | tail -n 1`;
+        sudo pkill -9 apt-get;
+        sudo pkill -9 dpkg;
+        sudo dpkg --configure -a;
+        sudo apt-get -y install binutils;
+        cd $HOME;
+        git clone https://github.com/aws/efs-utils;
+        cd $HOME/efs-utils;
+        ./build-deb.sh;
+        sudo apt-get -y install ./build/amazon-efs-utils*deb;
+        cd $HOME;
+        mkdir efs;
+        sudo mount -t efs {{FileSystemId}}:/ efs;
+        sudo chmod 777 efs;
+```
+
+### 常见集群配置
+`example-full.yaml`中的配置足够使用Ray了，但是对于更加计算密集型负载你可能想改变实例类型使用更多的GPU或更大的计算实例。这里是一些常见集群配置：
+
+**GPU single node**：在单个更大的GPU实例使用Ray。
+```shell
+max_workers: 0
+head_node:
+    InstanceType: p2.8xlarge
+```
+
+**Docker**：指定docker image。这样所有的命令会在所有节点的docker容器里执行，还会打开所有必要端口支持Ray集群。如果节点没有安装docker，还会自动安装。目前这还不支持GPU。
+```shell
+docker:
+    image: tensorflow/tensorflow:1.5.0-py3
+    container_name: ray_docker
+```
+
+**Mixed GPU and CPU nodes**：`for RL applications that require proportionally more CPU than GPU resources`RL应用需要比GPU更高比例的CPU。你可以使用额外的CPU worker和GPU head节点。
+```shell
+max_workers: 10
+head_node:
+    InstanceType: p2.8xlarge
+worker_nodes:
+    InstanceType: m4.16xlarge
+```
+
+**Autoscaling CPU cluster**：使用小的head节点并让Ray根据需要自动伸缩worker节点。对于负载大的集群，这个配置高效经济。对于额外的开销，你还可以现场请求worker。
+```shell
+min_workers: 0
+max_workers: 10
+head_node:
+    InstanceType: m4.large
+worker_nodes:
+    InstanceMarketOptions:
+        MarketType: spot
+    InstanceType: m4.16xlarge
+```
+
+**Autoscaling GPU cluster**：和上面类似，但是使用了GPU worker。
+```shell
+min_workers: 0  # NOTE: older Ray versions may need 1+ GPU workers (#2106)
+max_workers: 10
+head_node:
+    InstanceType: m4.large
+worker_nodes:
+    InstanceMarketOptions:
+        MarketType: spot
+    InstanceType: p2.xlarge
+```
