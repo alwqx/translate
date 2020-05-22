@@ -1,6 +1,0 @@
-- [首页](/)
-- [Ray docs](ray/)
-- [2019](2019/)
-- [2018](2018/)
-    - [CNCF项目通过Kubernetes扩展MySQL](/2018/01-cncf-host-vitess)
-- [2017](2017/)
