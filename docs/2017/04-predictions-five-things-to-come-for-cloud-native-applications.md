@@ -2,8 +2,8 @@
 
 ## 说明
 - [原文链接](http://www.pcquest.com/2017-predictions-five-things-to-come-for-cloud-native-applications/)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 毋庸置疑，2016年属于容器(container)。随着上游玩家（VMware启动vSphere，集成Container）入局，相继开发了很多开源项目。

@@ -2,9 +2,9 @@
 
 ## 说明
 - [原文链接](http://prooffreaderplus.blogspot.sg/2014/11/top-10-python-idioms-i-wished-id.html)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
-- [tt](https://github.com/adolphlwq/tt)：自动生成翻译模板
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
+- [tt](https://github.com/alwqx/tt)：自动生成翻译模板
 - 用时: 2h
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
@@ -80,9 +80,9 @@ if 4 > mynumber > 2:
     print("Chained comparison operators work! \n" * 3)
 ```
 
-Chained comparison operators work! 
-Chained comparison operators work! 
-Chained comparison operators work! 
+Chained comparison operators work!
+Chained comparison operators work!
+Chained comparison operators work!
 
 ## collections.Counter
 集合库很棒，Stackoverflow的答案让我尽早使用有序字典。但是我坚持使用片段创建字典，来计算代码中某个结果出现的次数。
@@ -193,7 +193,7 @@ Eggs Spam
 过去使用`dir()`，`help()`也可以用在IPython中作为魔术方法。
 ```python
 my_dict = {'That': 'an ex-parrot!'}
-    
+
 help(my_dict)
 ```
 

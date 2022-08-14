@@ -1,6 +1,6 @@
 # Ray核心预览
 - [原文链接](https://ray.readthedocs.io/en/latest/walkthrough.html)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [翻译：@alwqx](https://github.com/alwqx)
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 预览部分将概述Ray的核心概念：
@@ -149,10 +149,10 @@ ray.put(value, weakref=False)[source]
 
     The object may not be evicted while a reference to the returned ID exists.
 
-    Parameters:	
+    Parameters:
     value – The Python object to be stored.
     weakref – If set, allows the object to be evicted while a reference to the returned ID exists. You might want to set this if putting a lot of objects that you might not need in the future.
-    Returns:	
+    Returns:
     The object ID assigned to this value.
 ```
 
@@ -193,13 +193,13 @@ ray.get(object_ids, timeout=None)[source]
 
     This method will error will error if it’s running inside async context, you can use await object_id instead of ray.get(object_id). For a list of object ids, you can use await asyncio.gather(*object_ids).
 
-    Parameters:	
+    Parameters:
     object_ids – Object ID of the object to get or a list of object IDs to get.
     timeout (Optional[float]) – The maximum amount of time in seconds to wait before returning.
-    Returns:	
+    Returns:
     A Python object or a list of Python objects.
 
-    Raises:	
+    Raises:
     RayTimeoutError – A RayTimeoutError is raised if a timeout is set and the get takes longer than timeout to return.
     Exception – An exception is raised if the task that created the object or that created one of the objects raised an exception.
 ```
@@ -221,11 +221,11 @@ ray.wait(object_ids, num_returns=1, timeout=None)[source]
 
     This method will error if it’s running inside an async context. Instead of ray.wait(object_ids), you can use await asyncio.wait(object_ids).
 
-    Parameters:	
+    Parameters:
     object_ids (List[ObjectID]) – List of object IDs for objects that may or may not be ready. Note that these IDs must be unique.
     num_returns (int) – The number of object IDs that should be returned.
     timeout (float) – The maximum amount of time in seconds to wait before returning.
-    Returns:	
+    Returns:
     A list of object IDs that are ready and a list of the remaining object IDs.
 ```
 

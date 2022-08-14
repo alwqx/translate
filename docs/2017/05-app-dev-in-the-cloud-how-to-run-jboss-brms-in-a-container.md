@@ -2,8 +2,8 @@
 
 ## 说明
 - [原文链接](https://dzone.com/articles/app-dev-in-the-cloud-how-to-run-jboss-brms-in-a-co)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 >本文中，我们将介绍如何在云端容器中运行JBoss BRMS，云环境可以是私有云或者其它云解决方案。

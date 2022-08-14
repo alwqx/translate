@@ -1,10 +1,10 @@
 # AutoML：自动设计自动驾驶机器学习模型
-	
+
 ## 说明
 - [原文链接](https://medium.com/waymo/automl-automating-the-design-of-machine-learning-models-for-autonomous-driving-141a5583ec2a)
-- [翻译：@AdolphLWQ](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
-- [tt](https://github.com/adolphlwq/tt)：自动生成翻译模板
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
+- [tt](https://github.com/alwqx/tt)：自动生成翻译模板
 - 用时: 2.5h(人机混合)
 - 2019翻译任务：3/52
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
@@ -55,7 +55,7 @@ By: Shuyang Cheng and Gabriel Bender
 
 ![](https://cdn-images-1.medium.com/max/720/1*pzaDWldooweo5ToaWnxILQ.png) ![](https://cdn-images-1.medium.com/max/720/1*yPcHE6Ib3lKBQBEQQxtg4Q.png)
 
->1) The first graph shows about 4,000 architectures discovered with a random search on a simple set of architectures. Each point is an architecture that was trained and evaluated. The solid line marks the best architectures at different inference time constraints. The red dot shows the latency and performance of the net built with transfer learning. In this random search, the nets were not as good as the one from transfer learning. 
+>1) The first graph shows about 4,000 architectures discovered with a random search on a simple set of architectures. Each point is an architecture that was trained and evaluated. The solid line marks the best architectures at different inference time constraints. The red dot shows the latency and performance of the net built with transfer learning. In this random search, the nets were not as good as the one from transfer learning.
 >2) In the second graph, the yellow and blue points show the results of two other search algorithms. The yellow one was a random search on a refined set of architectures. The blue one used reinforcement learning as in [1] and explored more than 6,000 architectures. It yielded the best results. These two additional searches found nets that were significantly better than the net from transfer learning.
 
 搜索中发现的一些网络架构显示了卷积、池化和反卷积操作的创造性组合，如下图所示。这些架构最终适用于我们最初的LiDAR分割任务，并将部署在Waymo的自动驾驶车辆上。

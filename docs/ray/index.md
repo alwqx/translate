@@ -3,7 +3,7 @@
 ![](https://github.com/ray-project/ray/raw/master/doc/source/images/ray_header_logo.png)
 
 - [原文链接](https://ray.readthedocs.io/en/latest/)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
+- [翻译：@alwqx](https://github.com/alwqx)
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 **Ray是一个快速、简单的框架，用于构建和运行分布式应用。**
@@ -166,7 +166,7 @@ tune.run(
 - [Ray: A Cluster Computing Engine for Reinforcement Learning Applications | Spark Summit](https://www.youtube.com/watch?v=xadZRRB_TeI)
 - [RLlib: Ray Reinforcement Learning Library | RISECamp 2018](https://www.youtube.com/watch?v=eeRGORQthaQ)
 - [Enabling Composition in Distributed Reinforcement Learning | Spark Summit 2018](https://www.youtube.com/watch?v=jAEPqjkjth4)
-- [Tune: Distributed Hyperparameter Search | RISECamp 2018](https://www.youtube.com/watch?v=38Yd_dXW51Q)  
+- [Tune: Distributed Hyperparameter Search | RISECamp 2018](https://www.youtube.com/watch?v=38Yd_dXW51Q)
 
 ### 幻灯片
 - [Talk given at UC Berkeley DS100](https://docs.google.com/presentation/d/1sF5T_ePR9R6fAi2R6uxehHzXuieme63O2n_5i9m7mVE/edit?usp=sharing)

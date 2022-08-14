@@ -2,8 +2,8 @@
 
 ## 说明
 - [原文链接](http://thenewstack.io/cncf-host-vitess)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
 一项由YouTube开发的指在跨多个服务器实现MySQL分片的技术，Vitess，成为[Cloud Native Computing Foundation](http://bit.ly/2DCTwne)第16个项目。

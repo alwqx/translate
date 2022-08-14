@@ -2,8 +2,8 @@
 ![](https://1fykyq3mdn5r21tpna3wkdyi-wpengine.netdna-ssl.com/wp-content/uploads/2018/03/Header.jpg)
 
 - [原文链接](https://eng.uber.com/grail/)
-- [翻译：@AdolphLWQ](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
 - 用时: 10h
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 

@@ -2,9 +2,9 @@
 
 ## 说明
 - [原文链接](http://robertmuth.blogspot.sg/2012/08/better-bash-scripting-in-15-minutes.html)
-- [翻译：@adolphlwq](https://github.com/adolphlwq)
-- [项目地址](https://github.com/adolphlwq/translate)
-- [tt](https://github.com/adolphlwq/tt)：自动生成翻译模板
+- [翻译：@alwqx](https://github.com/alwqx)
+- [项目地址](https://github.com/alwqx/translate)
+- [tt](https://github.com/alwqx/tt)：自动生成翻译模板
 - 用时: 1.5h
 - <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
 
@@ -40,26 +40,26 @@ fi
 ```
 ExtractBashComments() {
     egrep "^#"
-} 
-cat myscript.sh | ExtractBashComments | wc 
+}
+cat myscript.sh | ExtractBashComments | wc
 comments=$(ExtractBashComments < myscript.sh)
 ```
 
 更多例子：
 ```
-SumLines() {  # iterating over stdin - similar to awk       
+SumLines() {  # iterating over stdin - similar to awk
     local sum=0
     local line=””
     while read line ; do
         sum=$((${sum} + ${line}))
     done
     echo ${sum}
-} 
-SumLines < data_one_number_per_line.txt 
-log() {  # classic logger 
+}
+SumLines < data_one_number_per_line.txt
+log() {  # classic logger
    local prefix="[$(date +%Y/%m/%d\ %H:%M:%S)]: "
    echo "${prefix} $@" >&2
-} 
+}
 log "INFO" "a message"
 ```
 
@@ -72,7 +72,7 @@ Bash允许一种有限制的变量注解形式，最终要的有：
 ```
 # a useful idiom: DEFAULT_VAL can be overwritten
 #       with an environment variable of the same name
-readonly DEFAULT_VAL=${DEFAULT_VAL:-7} 
+readonly DEFAULT_VAL=${DEFAULT_VAL:-7}
 myfunc() {
    # initialize a local variable with the global default
    local some_var=${DEFAULT_VAL}
@@ -155,8 +155,8 @@ bash有很多操作字符串的方法。
 
 - Basics
     ```
-    f="path1/path2/file.ext"  
-    len="${#f}" # = 20 (string length) 
+    f="path1/path2/file.ext"
+    len="${#f}" # = 20 (string length)
     # slicing: ${<var>:<start>} or ${<var>:<start>:<length>}
     slice1="${f:6}" # = "path2/file.ext"
     slice2="${f:6:5}" # = "path2"
@@ -167,9 +167,9 @@ bash有很多操作字符串的方法。
     ```
 - Substitution (with globbing)
     ```
-    f="path1/path2/file.ext"  
+    f="path1/path2/file.ext"
     single_subst="${f/path?/x}"   # = "x/path2/file.ext"
-    global_subst="${f//path?/x}"  # = "x/x/file.ext" 
+    global_subst="${f//path?/x}"  # = "x/x/file.ext"
     # string splitting
     readonly DIR_SEP="/"
     array=(${f//${DIR_SEP}/ })
@@ -177,12 +177,12 @@ bash有很多操作字符串的方法。
     ```
 - Deletion at beginning/end (with globbing)
     ```
-    f="path1/path2/file.ext" 
-    # deletion at string beginning extension="${f#*.}"  # = "ext" 
+    f="path1/path2/file.ext"
+    # deletion at string beginning extension="${f#*.}"  # = "ext"
     # greedy deletion at string beginning
-    filename="${f##*/}"  # = "file.ext" 
+    filename="${f##*/}"  # = "file.ext"
     # deletion at string end
-    dirname="${f%/*}"    # = "path1/path2" 
+    dirname="${f%/*}"    # = "path1/path2"
     # greedy deletion at end
     root="${f%%/*}"      # = "path1"
     ```

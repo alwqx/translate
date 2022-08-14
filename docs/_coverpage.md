@@ -8,7 +8,7 @@
 * Focus, Open and Share
 * Meaningful information
 
-[GitHub](https://github.com/adolphlwq/translate)
+[GitHub](https://github.com/alwqx/translate)
 [Get Started](#说明)
 
 ![color](#e4fff7)
